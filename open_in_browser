@@ -1,0 +1,9 @@
+#!/bin/bash
+# Copyright (c) 2011 Martin Ueding <dev@martin-ueding.de>
+
+# opens the current path in webbrowser on localhost webserver
+
+URL="${PWD#"/home/mu/Branches/"}"
+
+gnome-open "http://localhost/~mu/$URL"
+
