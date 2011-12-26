@@ -5,4 +5,4 @@
 
 URL="${PWD#"/home/mu/Branches/"}"
 
-gnome-open "http://localhost/~mu/$URL"
+firefox "http://localhost/~mu/$URL" & disown
