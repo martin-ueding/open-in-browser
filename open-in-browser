@@ -18,4 +18,4 @@
 
 url="${PWD#"/home/mu/Branches/"}"
 
-firefox "http://localhost/~mu/$url" & disown
+xdg-open "http://localhost/~mu/$url"
