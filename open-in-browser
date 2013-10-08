@@ -1,8 +1,9 @@
 #!/bin/bash
 # Copyright © 2011-2013 Martin Ueding <dev@martin-ueding.de>
+# Licensed under The GNU Public License Version 2 (or later)
 
 # Opens the current path in webbrowser on localhost webserver.
 
-url="${PWD#"/home/mu/Branches/"}"
+url="${PWD#"/home/mu/Projekte/"}"
 
 xdg-open "http://localhost/~mu/$url"
